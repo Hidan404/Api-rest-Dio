@@ -8,6 +8,7 @@ public class ProjetoDioApiRestApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjetoDioApiRestApplication.class, args);
+		System.out.println(12);
 	}
 
 }
