@@ -3,7 +3,7 @@ API reste em java desafo dio
 
 ## Diagrama de Classes
 
-``` Mermaid
+``` mermaid
 
 classDiagram
     class User {
