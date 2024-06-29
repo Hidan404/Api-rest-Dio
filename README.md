@@ -9,9 +9,9 @@ classDiagram
     class User {
         +String name
         +Account account
-        +List~Feature~ features
+        +List<Feature> features
         +Card card
-        +List~News~ news
+        +List<News> news
     }
 
     class Account {
@@ -40,6 +40,7 @@ classDiagram
     User --> Feature
     User --> Card
     User --> News
+
 
 
 ´´´
