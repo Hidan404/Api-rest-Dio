@@ -1,12 +1,13 @@
-package me.dio.service.impl;
+package com.ronald.service.impl;
 
-import me.dio.domain.model.User;
-import me.dio.domain.repository.UserRepository;
-import me.dio.service.UserService;
-import me.dio.service.exception.BusinessException;
-import me.dio.service.exception.NotFoundException;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
+
+import com.ronald.projeto_dio_api_rest.Modelo.User;
+import com.ronald.projeto_dio_api_rest.repository.UserRepository;
+import com.ronald.service.UserService;
+import com.ronald.service.exception.BusinessException;
+import com.ronald.service.exception.NotFoundException;
 
 import java.util.List;
 

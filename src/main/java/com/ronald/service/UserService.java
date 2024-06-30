@@ -1,6 +1,6 @@
-package me.dio.service;
+package com.ronald.service;
 
-import me.dio.domain.model.User;
+import com.ronald.projeto_dio_api_rest.Modelo.User;
 
 public interface UserService extends CrudService<Long, User> {
 
